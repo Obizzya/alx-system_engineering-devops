@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays "I am invincible!!!" for
+# every iteration
+pkill -15 "bash ./7-highlander" -f
