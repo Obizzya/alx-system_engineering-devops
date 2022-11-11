@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# a manage_my_process Bash script that:
-TEMP_FILE=/tmp/my_process
-while true
+# indefinitely write message in a file
+
+while :
 do
-    echo "I am alive!" >> "$TEMP_FILE"
-    sleep 2
+	echo "I am alive!" >> /tmp/my_process
+	sleep 2
 done
