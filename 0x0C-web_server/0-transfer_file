@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Transfers a file from our client to a server; accepts 4 parameters
 # Before running this script, we will run this to list server's existing content
-#  	 ssh ubuntu@35.229.54.225 -i ~/.ssh/school 'ls ~/'
+#  	 ssh ubuntu@100.25.204.10 -i ~/.ssh/school 'ls ~/'
 #	 touch newfile.html
 # After running script, we will run this to check new content is transferred to server
 #	 ssh ubuntu@35.229.54.225 -i ~/.ssh/school 'ls ~/'
